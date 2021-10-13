@@ -1,3 +1,6 @@
+NETLIFY: https://noroffclass.netlify.app
+
+
 # HTML 101
 
 ## Goal
