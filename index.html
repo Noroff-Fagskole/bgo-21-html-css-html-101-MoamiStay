@@ -14,27 +14,91 @@
       <img id="mylogo" src="media/icons/RainyDays_Logo.png" alt="A nice logo" />
       <nav>
         <ul>
-          <li><a href="./contact.html"> CONTACT</a></li>
-          <li><a href="./about.html">ABOUT</a></li>
+          <li><a id="contact" href="./contact.html"> CONTACT</a></li>
+          <li><a id="about" href="./about.html">ABOUT</a></li>
         </ul>
       </nav>
+      <style>
+        #pink-sky {
+          width: 200px;
+        }
+        #mylogo {
+          width: 150px;
+        }
+        ul {
+          list-style-type: none;
+          display: block;
+          padding-left: 0;
+        }
+        li {
+          float: left;
+          margin-right: 10px;
+          background: rgba(67, 212, 205, 0.685);
+          color: #fff;
+        }
+        li a {
+          text-decoration: none;
+          color: rgb(219, 43, 140);
+          padding: 2px 5px;
+          border: 1px solid rgb(243, 71, 100);
+          display: inline-block;
+          width: 120px;
+          text-align: center;
+        }
+        li:last-child {
+          margin-right: 0;
+        }
+        li:nth-child(1) {
+          float: left;
+        }
+        li a:hover {
+          background: #fff;
+          color: #000;
+        }
+        h1 {
+          padding-top: 50px;
+        }
+        section {
+          background: rgb(255, 231, 235);
+        }
+        #why-did-you-add-this-button {
+          text-decoration: none;
+          display: inline-block;
+          padding: 20px 20px;
+          background: rgb(243, 173, 173);
+          color: rgba(0, 27, 78, 0.685);
+          font-weight: bold;
+        }
+      </style>
     </header>
+
     <main>
       <h1>Welcome very much!</h1>
       <h2>I hope you like cotton candy</h2>
       <img
+        id="pink-sky"
         src="media/annie-spratt-nWiS2rgtVts-unsplash.jpg"
         alt="A beautiful pink sky with clouds"
       />
-      <p>
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quos autem
-        magnam architecto delectus pariatur aspernatur eveniet perferendis
-        consequuntur illum. Earum qui eveniet eligendi, perspiciatis rerum totam
-        eaque praesentium asperiores modi.
-      </p>
+      <section>
+        <pre>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+          Quos autem magnam architecto delectus pariatur aspernatur. 
+          eveniet perferendis consequuntur illum. Earum qui eveniet. 
+          eligendi, perspiciatis rerum totam eaque praesentium 
+          asperiores modi.
+        </pre>
+      </section>
+      <a
+        id="why-did-you-add-this-button"
+        href="https://www.geek.no/noroff/HTML101/media/dilbert.1494.strip.gif
+      "
+        >GREAT BUTTON</a
+      >
     </main>
     <footer>
-      <p>영웒히 함깨 하자</p>
+      <hr />
+      <p>영원히 함깨 하자</p>
     </footer>
   </body>
 </html>
